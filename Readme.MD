@@ -1,6 +1,6 @@
 ## Simulador de nave espacial
 
-###¿En que se basa este proyecto?
+## ¿En que se basa este proyecto?
 
 Este proyecto contendrá la siguiente clase SpaceShip que a su vez contiene los siguientes atributos:
 
