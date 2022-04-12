@@ -22,5 +22,8 @@ public class SpaceShip {
     }
 
 
-
-}
+    // Método speedUp
+    public void speedUp(int aceleracion) {
+        velocidadX = velocidadX + aceleracion;
+        coordenadaX = coordenadaX + velocidadX;
+    }
