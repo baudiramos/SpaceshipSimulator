@@ -27,3 +27,18 @@ public class SpaceShip {
         velocidadX = velocidadX + aceleracion;
         coordenadaX = coordenadaX + velocidadX;
     }
+
+    @Override
+    public String toString() {
+        String output;
+        output = "                    /~~~~~|\n" +
+                "               .__./''''''|\n" +
+                "._____________/   |/^^^^^^^\\\n" +
+                "|             `===\"\\_______/\n" +
+                "`.             .___/^^^^^^^^\\\n" +
+                "  `------------'~~~\\________/   FRM\n" +
+                "                  `........\\\n" +
+                "                    `-------'\n" ;
+        return output;
+    }
+}
