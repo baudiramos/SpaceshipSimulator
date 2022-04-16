@@ -35,7 +35,11 @@ public class SpaceShip {
         coordenadaX = coordenadaX - velocidadX;
     }
 
+// Método emergencyStop
 
+    public void emergencyStop() {
+        velocidadX = 0;
+    }
 
     @Override
     public String toString() {
