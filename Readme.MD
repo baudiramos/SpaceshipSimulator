@@ -44,6 +44,8 @@ Este proyecto va a simular naves espaciales...
 
 ## Clase cargo()
 
+> [Guía de la clase SpaceShip](/docs/Cargomd)
+
 > Extende del método emergencyStop(), en la que se incluye un nuevo atributo que indica la capacidad máxima de carga de la nave
 
 ### Método load()
