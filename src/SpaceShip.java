@@ -28,6 +28,19 @@ public class SpaceShip {
         coordenadaX = coordenadaX + velocidadX;
     }
 
+    // Método brake()
+
+    public void brake(int aceleracion) {
+        velocidadX = velocidadX - aceleracion;
+        coordenadaX = coordenadaX - velocidadX;
+    }
+
+// Método emergencyStop
+
+    public void emergencyStop() {
+        velocidadX = 0;
+    }
+
     @Override
     public String toString() {
         String output;
