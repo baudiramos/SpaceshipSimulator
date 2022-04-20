@@ -11,7 +11,6 @@ public class SpaceShip {
 
     // Iniciamos constructor
 
-
     public SpaceShip(String nombreNave, String matriculaNave, int aceleracion, float velocidadX, float coordenadaX, float direccionX) {
         this.nombreNave = nombreNave;
         this.matriculaNave = matriculaNave;
@@ -19,6 +18,10 @@ public class SpaceShip {
         this.velocidadX = velocidadX;
         this.coordenadaX = coordenadaX;
         this.direccionX = direccionX;
+    }
+
+
+    public SpaceShip() {
     }
 
 
