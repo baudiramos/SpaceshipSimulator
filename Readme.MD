@@ -32,7 +32,7 @@ Este proyecto va a simular naves espaciales...
 
 > En este documento se explicará el funcionamiento de la clase SpaceShip() y estará enlazado desde este documento README.md
 
-[comment]: <> (> [Guía del método SpaceShip&#40;&#41;]&#40;"www.google.es"&#41;)
+ > [Guía de la clase SpaceShip](/docs/SpaceShip.md)
 
 ### Método brake()
 
