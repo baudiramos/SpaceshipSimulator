@@ -53,6 +53,8 @@ public class Main {
 
                     velocidadX = sc.nextFloat();
 
+                    nave.setVelocidadX(velocidadX);
+
                     float coordenadaX;
 
                     System.out.println("Introduce la coordenadaX de la nave");
@@ -65,7 +67,7 @@ public class Main {
 
                     direccionX = sc.nextFloat();
 
-
+                    sc.nextLine();
 
                     break;
                 case "2":
@@ -94,6 +96,37 @@ public class Main {
 
                     System.out.println("La nueva velocidadX de la nave es: " + nave.getVelocidadX());
 
+
+                    break;
+
+                case "4":
+
+                    System.out.println("\nSe va a disminuir la velocidad de la nave \n");
+
+                    System.out.println("\nLa velocidadX actual de la nave es: " + nave.getVelocidadX() + "\n");
+
+                    int disminucion;
+
+                    if (nave.getVelocidadX() == 0.0) {
+                        System.out.println("Por favor acelera la nave para poder frenar\n");
+                    } else {
+                        System.out.println("Introduce la velocidad a disminuir de la nave: ");
+
+                        disminucion = sc.nextInt();
+
+                        nave.brake(disminucion);
+
+                        System.out.println("\nLa nueva velocidad de la nave es: " + nave.getVelocidadX() + "\n");
+                    }
+
+                    break;
+                case "5":
+
+                    System.out.println("\nLa vane se paró\n");
+
+                    nave.emergencyStop();
+
+                    System.out.println("\nLa nueva velocidad de la nave es: " + nave.getVelocidadX() + "\n");
 
                     break;
             }
