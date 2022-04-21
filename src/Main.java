@@ -68,6 +68,34 @@ public class Main {
 
 
                     break;
+                case "2":
+
+                    System.out.println("\n");
+                    System.out.println(nave.toString());
+
+                    break;
+
+                case "3":
+
+                    System.out.println("\n");
+                    System.out.println("Velocidad actual de la nave: " + nave.getVelocidadX());
+
+                    int aceleracion;
+
+                    System.out.println("Introduce la velocidadX de la nave ");
+
+                    aceleracion = sc.nextInt();
+
+                    sc.nextLine();
+
+                    System.out.println("Se va a acelerar la nave...");
+
+                    nave.speedUp(aceleracion);
+
+                    System.out.println("La nueva velocidadX de la nave es: " + nave.getVelocidadX());
+
+
+                    break;
             }
 
         }
