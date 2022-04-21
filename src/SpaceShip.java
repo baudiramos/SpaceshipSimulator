@@ -21,6 +21,10 @@ public class SpaceShip {
         this.direccionX = direccionX;
     }
 
+    public SpaceShip() {
+
+    }
+
 
     // Método speedUp
     public void speedUp(int aceleracion) {
