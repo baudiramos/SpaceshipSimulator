@@ -21,6 +21,17 @@ public class SpaceShip {
         this.direccionX = direccionX;
     }
 
+    public SpaceShip() {
+
+    }
+
+    public float getVelocidadX() {
+        return velocidadX;
+    }
+
+    public void setVelocidadX(float velocidadX) {
+        this.velocidadX = velocidadX;
+    }
 
     // Método speedUp
     public void speedUp(int aceleracion) {
